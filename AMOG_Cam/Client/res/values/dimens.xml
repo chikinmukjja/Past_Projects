@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="BUTTON_PADDING">10dp</dimen>
+    <dimen name="VIEW_MARGIN">3dp</dimen>
+    <dimen name="IMAGE_SIZE">350dp</dimen>
+</resources>

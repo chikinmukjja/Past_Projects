@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical"
+    >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="20"
+        android:layout_marginLeft="10dp"
+        android:orientation="horizontal" 
+        >       
+        
+        <TextView
+            android:layout_weight="19"
+        	android:id="@+id/list_view_item_layout_ipAddress"
+        	android:text="IPADDRESS"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+       		android:textSize="25sp"
+        	/>
+           
+        <ImageView 
+            android:layout_weight="1"
+            android:id="@+id/list_view_item_layout_recording_image"
+            android:layout_marginTop="@dimen/VIEW_MARGIN"
+        	android:layout_width="wrap_content"
+        	android:layout_height="30dp"
+        	android:layout_gravity="end"
+        	/>
+        
+    </LinearLayout>
+    
+    <TextView
+        android:id="@+id/list_view_item_layout_name"
+       	android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp" 
+        android:text="NAME"
+       	android:textSize="15sp"
+   	/>
+  
+       
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    >
+    <ViewFlipper
+        android:id			 ="@+id/flipper"
+        android:layout_width ="match_parent"
+        android:layout_height="match_parent" 
+        >
+       <ImageView
+           android:id="@+id/show_log_imageView"
+           android:layout_width="@dimen/IMAGE_SIZE"
+           android:layout_height="@dimen/IMAGE_SIZE"
+           android:scaleType="fitXY"
+        />
+    </ViewFlipper>             
+</LinearLayout>

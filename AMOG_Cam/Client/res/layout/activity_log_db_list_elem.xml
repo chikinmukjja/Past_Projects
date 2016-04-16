@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:paddingTop="?android:attr/actionBarSize">
+    
+    <TextView
+        android:id="@+id/show_log_db_activity_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="25sp" 
+        />
+    
+    <ImageView
+        android:id="@+id/show_log_db_activity_imageView"
+        android:layout_width="@dimen/IMAGE_SIZE"
+        android:layout_height="@dimen/IMAGE_SIZE"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:scaleType="fitXY"
+        />
+
+</LinearLayout>

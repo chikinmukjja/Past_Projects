@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">C A M</string>
+    <string name="hello_world">Hello world!</string>
+    
+      <!-- activity_main 액션바 -->
+    <string name="activity_main_menu_add_btn">ADD</string>
+    <string name="activity_main_menu_log_btn">LOG</string>
+    
+    
+      <!-- activity_show_webcam 액션바 -->
+    <string name="activity_show_webcam_on_btn"     >OFF</string>
+    <string name="activity_show_webcam_log_btn"    >LOG</string>
+    <string name="activity_show_webcam_capture_btn">CAP</string>
+    
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+ 	
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        >
+        
+    	<ImageView
+       		android:id="@+id/imageView"
+        	android:layout_width="@dimen/IMAGE_SIZE"
+        	android:layout_height="@dimen/IMAGE_SIZE"
+        	android:scaleType="fitXY"
+        	/>
+    	
+    	<ImageView
+       		android:id="@+id/disconnectView"
+       		android:background="@drawable/disconnect_screen"
+        	android:layout_width="@dimen/IMAGE_SIZE"
+        	android:layout_height="@dimen/IMAGE_SIZE"
+        	android:visibility="invisible"
+        	android:scaleType="fitXY"
+        	/>
+    		
+    </FrameLayout>
+    
+    <Button
+        android:id="@+id/send_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:onClick="onClick" 
+        />
+    
+    
+</LinearLayout>

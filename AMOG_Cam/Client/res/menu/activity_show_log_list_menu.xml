@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+         
+    <item android:id="@+id/activity_show_log_list_delete_btn"
+          android:title="delete"
+          android:icon="@drawable/delete_btn"
+          android:showAsAction="always" />
+    
+</menu>
